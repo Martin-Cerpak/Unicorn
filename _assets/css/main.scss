@@ -1,0 +1,309 @@
+*,
+::before,
+::after {
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    box-sizing: border-box;
+    outline: none;
+    cursor: default;
+}
+
+* > a,
+a > * {
+    cursor: pointer !important;
+}
+
+@import "navigation";
+
+
+
+/*
+*    TEXT SETTINGS
+*/
+
+html,
+body {
+    font-size: 10px;
+}
+
+h1.xl {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 14.901161193847656em;
+    line-height: 15rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h2.xl {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 11.920928955078125em;
+    line-height: 12rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h3.xl {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 9.5367431640625em;
+    line-height: 12rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h4.xl {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 7.62939453125em;
+    line-height: 9rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h5.xl {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 6.103515625em;
+    line-height: 9rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h6.xl {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 4.8828125em;
+    line-height: 6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 6.103515625em;
+    line-height: 9rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 4.8828125em;
+    line-height: 6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h3 {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 3.90625em;
+    line-height: 6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h4 {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 3.125em;
+    line-height: 6rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h5 {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 2.5em;
+    line-height: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+h6 {
+    margin-bottom: 3rem;
+    font-family: Montserrat;
+    font-size: 2em;
+    line-height: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+p {
+    margin-bottom: 3rem;
+    font-family: Lora;
+    font-size: 1.6em;
+    line-height: 3rem;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+@media screen and (max-width: 720px) {}
+
+
+
+/* .full-height-block {
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.project-logo-emblem {
+    margin: 15vh auto 0;
+    height: 50vh;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, .5));
+    background-image: url(../../_assets/phoenix_gradient.svg);
+} */
+
+.container {
+    max-width: 85%;
+    margin: 0 12.5%;
+    margin: 0 9.75%;
+    animation-delay: 3s;
+}
+
+/*
+*    FONTS
+*/
+
+@font-face {
+    /* font-family: 'Bebas Neue Regular';
+            src: url('webfont.eot');
+            IE9 Compat Modes
+            src: url('webfont.eot?#iefix') format('embedded-opentype'), IE6-IE8
+            url('webfont.woff2') format('woff2'), Super Modern Browsers
+            url('webfont.woff') format('woff'), Pretty Modern Browsers
+            url('webfont.ttf') format('truetype'), Safari, Android, iOS
+            url('webfont.svg#svgFontName') format('svg');
+            Legacy iOS */
+    font-family: 'Bebas Neue Bold';
+    src: url('../fonts/Bebas%20Neue/ttf/BebasNeueBold.ttf') format('truetype'),
+        url('../fonts/Bebas%20Neue/otf/BebasNeueBold.otf') format('truetype');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    src: url('../fonts/Bebas%20Neue/ttf/BebasNeueRegular.ttf') format('truetype'),
+        url('../fonts/Bebas%20Neue/otf/BebasNeueRegular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('../fonts/Bebas%20Neue/ttf/BebasNeueBook.ttf') format('truetype'),
+        url('../fonts/Bebas%20Neue/otf/BebasNeueBook.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Light';
+    src: url('../fonts/Bebas%20Neue/ttf/BebasNeueLight.ttf') format('truetype'),
+        url('../fonts/Bebas%20Neue/otf/BebasNeueLight.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue Thin';
+    src: url('../fonts/Bebas%20Neue/ttf/BebasNeueThin.ttf') format('truetype'),
+        url('../fonts/Bebas%20Neue/otf/BebasNeueThin.otf') format('truetype');
+}
+
+/* Raleway */
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url('../fonts/Raleway/Raleway-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Extra-Light';
+    src: url('../fonts/Raleway/Raleway-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Light';
+    src: url('../fonts/Raleway/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url('../fonts/Raleway/Raleway-Regular.tff') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Medium';
+    src: url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Semi-Bold';
+    src: url('../fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
+}
+
+/*
+*    NAVIGATION SIDE PANEL
+*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+    z-index: 7;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

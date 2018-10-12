@@ -1,0 +1,25 @@
+/*
+*
+*    DARK THEME STYLE
+*
+*/
+
+body {
+    background: #212423;
+}
+
+.navigation-panel {
+    background: black;
+    -webkit-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+    .hamburger {
+        background-image: url(../../../_assets/_dark/nav/menu-for-dark.svg);
+    }
+
+    p.name-of-project,
+    p.copyright {
+        color: white;
+    }
+}
